@@ -6,7 +6,7 @@ const util = require('../src/util');
 const parameters = require('../src/parameters');
 
 async function main() {
-  const hash = 'ethereum';
+  const hash = 'QmVZiq9UT9B3LJP5ZnQd5AqS5ySjetANjAfouhqZcbzd1d';
   const wallet = await evm.getWallet();
   const exampleClient = new ethers.Contract(
     util.readFromLogJson('ExampleClient address'),
